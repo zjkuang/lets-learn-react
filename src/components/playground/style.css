@@ -1,8 +1,21 @@
 .Playground {
   width: "100%";
   min-height: 100vh;
-  background-color: #282c34;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.Interest {
+  align-items: center;
+  justify-content: center;
+  margin: 8pt;
+}
+
+.Button {
+  margin: 8pt;
+}
+
+.Text {
+  margin: 8pt;
 }
