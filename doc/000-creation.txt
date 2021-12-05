@@ -1,0 +1,13 @@
+(0) One-time installation of create-react-app if not yet
+$ npm i -g create-react-app
+
+(1) Create a React app "lets-learn-react" with TypeScript template
+$ yarn create react-app lets-learn-react --template typescript
+(`cd lets-learn-react` and `yarn start` to test it.)
+
+(2) In GitHub create an empty repository (no README, no .gitignore, nothing but a repository name) with the same name "lets-learn-react" as the React app
+    https://github.com/zjkuang/lets-learn-react.git
+$ cd lets-learn-react
+$ git remote add origin https://github.com/zjkuang/lets-learn-react.git
+$ git branch -M main
+$ git push -u origin main
