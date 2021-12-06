@@ -27,6 +27,6 @@ export function Cover() {
       </header>
     </div>
   ) : (
-    <Playground onHome={onHomeClicked} />
+    <Playground onClickHome={onHomeClicked} />
   );
 }
