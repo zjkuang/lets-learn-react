@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 import "./style.css";
 
 export interface PlaygroundProperties {
-  onHome: () => void;
+  onClickHome: () => void;
 }
 
 export function Playground(prop: PlaygroundProperties) {
@@ -13,7 +13,7 @@ export function Playground(prop: PlaygroundProperties) {
   };
   return (
     <div className="Playground">
-      <button onClick={prop.onHome}>Home</button>
+      <button onClick={prop.onClickHome}>Home</button>
       <div className="Interest">
         <button className="Button" onClick={onClickGenerateUuid}>
           Generate UUID
