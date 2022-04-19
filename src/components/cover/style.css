@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.Panel {
+  background-color: #282c34;
+  text-align: left;
+}
+
 .Logo {
   height: 40vmin;
   pointer-events: none;

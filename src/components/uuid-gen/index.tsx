@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { v4 as uuid } from "uuid";
+import { ComponentProperties } from "../Common";
 import "./style.css";
 
-export interface UUIDGenProperties {
-  onClickHome: () => void;
-}
+export interface UUIDGenProperties extends ComponentProperties {}
 
 export function UUIDGen(prop: UUIDGenProperties) {
-  const [uuidString, setUuidString] = useState(uuid());
+  const [uuidString, setUuidString] = React.useState(uuid());
   const onClickGenerateUuid = () => {
     setUuidString(uuid());
   };
